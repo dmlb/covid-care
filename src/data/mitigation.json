@@ -1,0 +1,104 @@
+{
+    "mitigation": [
+        {
+            "title": "hygiene",
+            "questions": [
+                {
+                    "question": "Are you practicing good hygiene and respitory etiquette?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Cover your cough and sneeze",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Thoroughly clean your hands with either soap and water or alcohol based hand rub regularly, especially after coughing or sneezing",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Wear a mask to protect others",
+                            "value": 1
+                        },
+                        {
+                            "answer": "cleaning and disinfecting high touch surfaces and general cleaning of shared spaces",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Staying home when sick",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "masks",
+            "questions": [
+                {
+                    "question": "Are you utilizing masks?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "respirator masks",
+                            "value": 3
+                        },
+                        {
+                            "answer": "medical masks",
+                            "value": 2
+                        },
+                        {
+                            "answer": "cloth masks",
+                            "value": 1
+                        },
+                        {
+                            "answer": "none",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ventilation",
+            "questions": [
+                {
+                    "question": "Are you able to improve air quality with good ventilation?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Outside, with a breeze",
+                            "value": 6
+                        },
+                        {
+                            "answer": "Inside, maintaining an optimal humidity level, between 30% and 50%",
+                            "value": 5
+                        },
+                        {
+                            "answer": "Inside, running exhaust fans that are vented to the outside",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter,  with high enough CADR for the space",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Inside, open windows",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Inside, large space with distance from others",
+                            "value": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

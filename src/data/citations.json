@@ -1,0 +1,230 @@
+{
+    "citations": [
+        {
+            "id": "covidLevels",
+            "title": "COVID Levels",
+            "sources": [
+                {
+                    "title": "COVID-19 epidemiology update: Summary | canada.ca",
+                    "url": "https://health-infobase.canada.ca/covid-19/#a3"
+                },
+                {
+                    "title": "Respiratory Virus Activity Levels | cdc.gov",
+                    "url": "https://www.cdc.gov/respiratory-viruses/data-research/dashboard/activity-levels.html"
+                },
+                {
+                    "title": "Severe Viral Respiratory Illness | cdc.gov",
+                    "url": "https://www.cdc.gov/respiratory-viruses/data-research/dashboard/illness-severity.html"
+                }
+            ]
+        },
+        {
+            "id": "covidVariants",
+            "title": "COVID Variants",
+            "sources": [
+                {
+                    "title": "COVID-19 epidemiology update: Testing and variants | canada.ca",
+                    "url": "https://health-infobase.canada.ca/covid-19/testing-variants.html"
+                },
+                {
+                    "title": "COVID-19 Variants in Wastewater | cdc.gov",
+                    "url": "https://www.cdc.gov/nwss/rv/COVID19-variants.html"
+                }
+            ]
+        },
+        {
+            "id": "wastewater",
+            "title": "Wastewater",
+            "sources": [
+                {
+                    "title": "COVID-19 wastewater monitoring dashboard: Viral signal trend | canada.ca",
+                    "url": "https://health-infobase.canada.ca/covid-19/wastewater/"
+                },
+                {
+                    "title": "Wastewater COVID-19 National and Regional Trends | cdc.gov",
+                    "url": "https://www.cdc.gov/nwss/rv/COVID19-nationaltrend.html"
+                }
+            ]
+        },
+        {
+            "id": "highRisk",
+            "title": "High Risk",
+            "sources": [
+                {
+                    "title": "People who are at risk of more severe disease or outcomes from COVID-19s | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/publications/diseases-conditions/people-high-risk-for-severe-illness-covid-19.html"
+                },
+                {
+                    "title": "People with Certain Medical Conditions | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/need-extra-precautions/people-with-medical-conditions.html"
+                }
+            ]
+        },
+        {
+            "id": "airborne",
+            "title": "Airborne",
+            "sources": [
+                {
+                    "title": "COVID-19: Prevention and risks | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html"
+                },
+                {
+                    "title": "At home: Using ventilation and filtration to reduce the risk of aerosol transmission of COVID-19 | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/guide-home-ventilation-covid-19-pandemic.html"
+                },
+                {
+                    "title": "Use of Portable Air Cleaners and Transmission of COVID-19 | publichealthontario.ca [pdf]",
+                    "url": "https://www.publichealthontario.ca/-/media/documents/ncov/ipac/2021/01/faq-covid-19-portable-air-cleaners.pdf"
+                }
+            ]
+        },
+        {
+            "id": "masks",
+            "title": "Masks",
+            "sources": [
+                {
+                    "title": "COVID-19: Prevention and risks | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html"
+                },
+                {
+                    "title": "COVID-19 mask use: Advice for community settings | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/about-non-medical-masks-face-coverings.html"
+                },
+                {
+                    "title": "Cloth vs. Surgical vs. N95 vs. KN95: What’s the Difference? | nihb.org [pdf]",
+                    "url": "https://www.nihb.org/covid-19/wp-content/uploads/2022/07/MA-Cloth-vs.-Surgical-vs.-N95-vs.-KN95-Whats-the-difference-.pdf"
+                }, 
+                {
+                    "title": "N95 respirator and surgical mask effectiveness against respiratory viral illnesses in the healthcare setting: A systematic review and meta-analysis | wiley.com",
+                    "url": "https://onlinelibrary.wiley.com/doi/10.1002/emp2.12582"
+                },
+                {
+                    "title": "Face masks to prevent transmission of COVID-19: A systematic review and meta-analysis |ajicjournal.org",
+                    "url": "https://www.ajicjournal.org/article/S0196-6553(20)31043-9/fulltext"
+                }
+            ]
+        },
+        {
+            "id": "mitigation",
+            "title": "Prevention & Mitigation",
+            "sources": [
+                {
+                    "title": "COVID-19: Prevention and risks | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html"
+                },
+                {
+                    "title": "Reducing COVID-19 risk in community settings: A tool for operators | canada.ca",
+                    "url": "https://sante.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/reducing-covid-19-risk-community-settings-tool-operators.html"
+                },
+                {
+                    "title": "COVID-19 mask use: Advice for community settings | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks/about-non-medical-masks-face-coverings.html"
+                },
+                {
+                    "title": "At home: Using ventilation and filtration to reduce the risk of aerosol transmission of COVID-19 | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/guidance-documents/guide-home-ventilation-covid-19-pandemic.html"
+                },
+                {
+                    "title": "Use of Portable Air Cleaners and Transmission of COVID-19 | publichealthontario.ca [pdf]",
+                    "url": "https://www.publichealthontario.ca/-/media/documents/ncov/ipac/2021/01/faq-covid-19-portable-air-cleaners.pdf"
+                },
+                {
+                    "title": "How to Protect Yourself and Others | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/prevent-getting-sick/prevention.html"
+                },
+                {
+                    "title": "Tell Me More: Respiratory Etiquette | publichealthontario.ca",
+                    "url": "https://www.publichealthontario.ca/en/About/News/2023/01/Respiratory-Etiquette"
+                }
+            ]
+        },
+        {
+            "id": "symptoms",
+            "title": "Symptoms",
+            "sources": [
+                {
+                    "title": "COVID-19: Symptoms, treatment, what to do if you feel sick | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms.html"
+                },
+                {
+                    "title": "Symptoms of COVID-19 | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html"
+                }
+            ]
+        },
+        {
+            "id": "infectionDuration",
+            "title": "Infection Duration",
+            "sources": [
+                {
+                    "title": "COVID-19: Symptoms, treatment, what to do if you feel sick | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms.html"
+                }
+            ]
+        },
+        {
+            "id": "vaccination",
+            "title": "Vaccination",
+            "sources": [
+                {
+                    "title": "COVID-19: Prevention and risks | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/prevention-risks.html"
+                },
+                {
+                    "title": "COVID-19: Symptoms, treatment, what to do if you feel sick | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms.html"
+                },
+                {
+                    "title": "COVID-19 Treatment and Preventive Medication | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/your-health/treatments-for-severe-illness.html"
+                },
+                {
+                    "title": "Stay Up to Date with COVID-19 Vaccines | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/stay-up-to-date.html"
+                }
+            ]
+        },
+        {
+            "id": "longCovid",
+            "title": "Long Covid",
+            "sources": [
+                {
+                    "title": "Post COVID-19 condition | canada.ca",
+                    "url": "https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/symptoms/post-covid-19-condition.html"
+                },
+                {
+                    "title": "Long COVID Basics | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/long-term-effects/index.html"
+                },
+                {
+                    "title": "Clinical Overview of Long COVID | cdc.gov",
+                    "url": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/post-covid-conditions.html"
+                },
+                {
+                    "title": "Prevalence of post COVID-19 condition symptoms: a systematic review and meta-analysis of cohort study data, stratified by recruitment setting |ecdc.europa.eu/",
+                    "url": "https://www.ecdc.europa.eu/en/publications-data/prevalence-post-covid-19-condition-symptoms-systematic-review-and-meta-analysis"
+                },
+                {
+                    "title": "Occupational differences in the prevalence and severity of long-COVID: analysis of the Coronavirus (COVID-19) Infection Survey | BMJ Journals",
+                    "url": "https://oem.bmj.com/content/80/10/545"
+                },
+                {
+                    "title": "Sequelae in Adults at 6 Months After COVID-19 Infection | JAMA Network",
+                    "url": "https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2776560"
+                }, 
+                {
+                    "title": "Incidence of Epilepsy and Seizures Over the First 6 Months After a COVID-19 Diagnosis | neurology.org",
+                    "url": "https://www.neurology.org/doi/10.1212/WNL.0000000000201595"
+                },
+                {
+                    "title": "Acute and postacute sequelae associated with SARS-CoV-2 reinfection | nature.com",
+                    "url": "https://www.nature.com/articles/s41591-022-02051-3"
+                },
+                {
+                    "title": "The Impacts of Covid-19 Illnesses on Workers | National Bureau of Economic Research",
+                    "url": "https://www.nber.org/papers/w30435"
+                }
+            ]
+        }
+    ]
+}

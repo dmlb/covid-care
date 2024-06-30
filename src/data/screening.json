@@ -1,0 +1,248 @@
+{
+    "screening": [
+        {
+            "title": "symptoms",
+            "questions": [
+                {
+                    "question": "Are you experiencing any of the following symptoms?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "sore throat",
+                            "value": 1
+                        },
+                        {
+                            "answer": "runny nose",
+                            "value": 1
+                        },
+                        {
+                            "answer": "sneezing",
+                            "value": 1
+                        },
+                        {
+                            "answer": "new or worsening cough",
+                            "value": 2
+                        },
+                        {
+                            "answer": "shortness of breath or difficulty breathing",
+                            "value": 3
+                        },
+                        {
+                            "answer": "temperature equal to or more than 38°C",
+                            "value": 3
+                        },
+                        {
+                            "answer": "feeling feverish",
+                            "value": 2
+                        },
+                        {
+                            "answer": "chills",
+                            "value": 3
+                        },
+                        {
+                            "answer": "fatigue or weakness",
+                            "value": 3
+                        },
+                        {
+                            "answer": "muscle or body aches",
+                            "value": 3
+                        },
+                        {
+                            "answer": "new loss of smell or taste",
+                            "value": 4
+                        },
+                        {
+                            "answer": "headache",
+                            "value": 3
+                        },
+                        {
+                            "answer": "abdominal pain, diarrhea and vomiting",
+                            "value": 4
+                        },
+                        {
+                            "answer": "feeling very unwell",
+                            "value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "infection",
+            "questions": [
+                {
+                    "question": "If you've been sick, how many days ago were your last symptoms?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "less than 14 days ago",
+                            "value": 2
+                        },
+                        {
+                            "answer": "less than 20 days ago",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Not applicable",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "contacts",
+            "questions": [
+                {
+                    "question": "Have you been in contact with anyone with COVID-19?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "Yes, less than 14 days ago",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Yes, less than 20 days ago",
+                            "value": 1
+                        },
+                        {
+                            "answer": "No",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "travel",
+            "questions": [
+                {
+                    "question": "Have you traveled recently?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Yes, internationally, less than 14 days ago",
+                            "value": 6
+                        },
+                        {
+                            "answer": "Yes, internationally, less than 20 days ago",
+                            "value": 5
+                        },
+                        {
+                            "answer": "Yes, nationally, less than 14 days ago",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Yes, nationally, less than 20 days ago",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Yes, locally, less than 14 days ago",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Yes, locally, less than 20 days ago",
+                            "value": 1
+                        },
+                        {
+                            "answer": "No",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "severe outcomes",
+            "questions": [
+                {
+                    "question": "Are you high risk for severe illness outcomes?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Over 60",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Over 50 as part of a marginilized group",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Pregnant",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have asthma (moderate to severe)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have Down syndrome",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have dementia or other neurological conditions",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have diabetes (type 1 or 2)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have heart conditions (diseason, high blood pressure)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have kidney disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have liver disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have lung disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have a disability",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have cerebrovascular disease or strokes",
+                            "value": 1
+                        },
+                        {
+                            "answer": "are immunocompromised (cancer, HIV, medication)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "live with obesity (BMI of 40+)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "partially vaccinated",
+                            "value": 1
+                        },
+                        {
+                            "answer": "not vaccinated",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have had 3 or more covid infections",
+                            "value": 1
+                        },
+                        {
+                            "answer": "have 3 or more co-morbidities",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

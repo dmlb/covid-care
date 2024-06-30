@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex; 
+    gap: var(--spacer);
+    position: relative;
+}
+
+nav {
+    min-width: min(200px, 30vw);
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacer);
+    position: sticky;
+    top: 1rem;
+}
+
+@media screen and (max-width: 60ch) {
+    nav {
+        display: none;
+    }
+}
+
+
+article a {
+    word-wrap: break-word;
+}

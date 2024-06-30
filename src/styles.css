@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --spacer-s: .25rem;
+    --spacer: .5rem;
+    --spacer-l: 1rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+.button {
+    @apply border p-1 px-8 font-semibold rounded;
+}
+
+.button--primary {
+    @apply text-white bg-sky-700 border-sky-500;
+}
+
+main a {
+    @apply text-sky-700;
+} 
+
+main a:visited {
+    @apply text-purple-800;
+} 
+
+.page-heading {
+    @apply text-3xl font-bold mb-4;
+}
+
+.card {
+    @apply border rounded p-2 max-w-prose;
+}
+
+.card__title {
+    @apply text-lg font-bold mb-1;
+}

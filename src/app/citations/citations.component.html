@@ -1,0 +1,26 @@
+<div class="wrapper">
+    <nav aria-labelledby="topicNav" class="hidden md:block">
+        <h2 id="topicNav" class="text-lg font-bold">Topics</h2>
+        @for (item of citationData; track item.id) {
+            <a routerLink="/citations" [fragment]="item.id">{{ item.title }}</a>
+        }
+    </nav>
+
+    <div>
+        <h1 class="page-heading">{{title}}</h1>
+
+        @for (item of citationData; track item.id) {
+            <article class="mb-8" [attr.aria-labelledby]="item.id">
+                <h2 [id]="item.id" class="text-xl font-bold mb-2">{{ item.title }}</h2>
+
+                @if (item.sources && item.sources.length >= 1) {
+                    <ol class="list-decimal list-inside">
+                    @for (source of item.sources; track source.url) {
+                        <li><a [href]="source.url">{{ source.title }}</a></li>
+                    }
+                    </ol>
+                }
+            </article>
+        }
+    </div>
+</div>
