@@ -53,6 +53,7 @@ describe('CitationsComponent', () => {
     };
 
     // Replace the existing ActivatedRoute provider with the test-specific mock
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
     component['route'] = mockActivatedRoute as any;
 
     // Call ngOnInit

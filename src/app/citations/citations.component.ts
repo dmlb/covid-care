@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterLink } from '@angular/router';
-import { Subscription, take } from 'rxjs';
+import { Subscription } from 'rxjs';
 import { ICitation } from '../../interfaces/citations';
 
 @Component({

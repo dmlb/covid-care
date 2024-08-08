@@ -60,7 +60,7 @@ describe('AppComponent Router', () => {
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
   let router: Router;
-  let routerEventsSubject: Subject<any>;
+  let routerEventsSubject: Subject<unknown>;
 
   beforeEach(async () => {
     routerEventsSubject = new Subject();
@@ -104,6 +104,7 @@ describe('AppComponent Router', () => {
 
     // Simulate NavigationEnd event
     const newUrl = '/new-url';
+    // eslint-disable-next-line  @typescript-eslint/no-explicit-any
     (router as any).url = newUrl;  // Type assertion to modify readonly property for testing purposes
     routerEventsSubject.next(new NavigationEnd(1, '/old-url', newUrl));
 
