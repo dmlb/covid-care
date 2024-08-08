@@ -13,6 +13,6 @@ jobs:
             key: ${{ runner.os }}-ci
         - uses: actions/setup-node@v4
         - run: npm ci
-        - run: npm lint
-        - run: npm test
+        - run: npm run lint
+        - run: npm run test
         - uses: livewing/lcov-job-summary@v1.1.0
