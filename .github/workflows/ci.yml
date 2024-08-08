@@ -16,3 +16,5 @@ jobs:
         - run: npm run lint
         - run: npm run test
         - uses: livewing/lcov-job-summary@v1.1.0
+          with:
+            lcov: coverage/covid-care/lcov.info
