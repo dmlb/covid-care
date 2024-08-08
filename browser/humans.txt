@@ -1,0 +1,21 @@
+/* MAIN */
+  Develop: Danielle Bastien
+  Site: https://daniellemlbastien.com
+
+/* SITE */
+  Last update: 30/06/2024
+  Doctype: HTML5
+  IDE: VS Code
+
+
+/* CREDITS */
+
+Framework: 
+https://angular.dev/
+https://tailwindcss.com/
+
+Open Dyslexic Font: https://opendyslexic.org/
+
+
+Study Citations:
+https://youhavetoliveyour.life/
