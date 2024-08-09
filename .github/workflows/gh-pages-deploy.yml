@@ -55,7 +55,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # build folder
-          path: dist/covid-care
+          path: dist/covid-care/browser
 
       - name: Deploy to GitHub Pages
         id: deployment
