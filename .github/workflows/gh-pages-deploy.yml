@@ -1,5 +1,5 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Simple workflow for deploying to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   # Runs on pushes targeting the default branch
@@ -31,11 +31,32 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Restore cache
+        uses: actions/cache@v4
+        with: 
+            path: deploy
+            key: ${{ runner.os }}-deploy
+          
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
       - name: Install and Build 🔧 
         run: |
           npm ci
           npm run build:ghpages
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
+          
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          folder: dist/covid-care
+          # build folder
+          path: dist/covid-care
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
