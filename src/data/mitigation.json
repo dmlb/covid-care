@@ -4,7 +4,7 @@
             "title": "hygiene",
             "questions": [
                 {
-                    "question": "Are you practicing good hygiene and respitory etiquette?",
+                    "question": "Are you practicing good hygiene and respiratory etiquette?",
                     "description": "",
                     "type": "checkbox",
                     "answers": [
@@ -36,24 +36,43 @@
             "title": "masks",
             "questions": [
                 {
-                    "question": "Are you utilizing masks?",
+                    "question": "Are you wearing masks?",
                     "description": "",
                     "type": "checkbox",
                     "answers": [
                         {
-                            "answer": "respirator masks",
+                            "answer": "Respirator masks",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Medical masks",
                             "value": 3
                         },
                         {
-                            "answer": "medical masks",
+                            "answer": "Cloth masks (with filter)",
                             "value": 2
                         },
                         {
-                            "answer": "cloth masks",
+                            "answer": "Improvised masks",
                             "value": 1
                         },
                         {
-                            "answer": "none",
+                            "answer": "None",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Would you say your masks are well fitting and have a good seal?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "Yes",
+                            "value": 1
+                        },
+                        {
+                            "answer": "No",
                             "value": 0
                         }
                     ]
@@ -61,40 +80,35 @@
             ]
         },
         {
-            "title": "ventilation",
+            "title": "vaccine",
             "questions": [
                 {
-                    "question": "Are you able to improve air quality with good ventilation?",
+                    "question": "Are you eligible for vaccination?",
                     "description": "",
-                    "type": "checkbox",
+                    "type": "radio",
                     "answers": [
                         {
-                            "answer": "Outside, with a breeze",
-                            "value": 6
+                            "answer": "Yes",
+                            "value": 0
                         },
                         {
-                            "answer": "Inside, maintaining an optimal humidity level, between 30% and 50%",
-                            "value": 5
-                        },
+                            "answer": "No",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Are you up to date on your COVID vaccination?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
                         {
-                            "answer": "Inside, running exhaust fans that are vented to the outside",
-                            "value": 4
-                        },
-                        {
-                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter",
-                            "value": 3
-                        },
-                        {
-                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter,  with high enough CADR for the space",
-                            "value": 3
-                        },
-                        {
-                            "answer": "Inside, open windows",
+                            "answer": "Yes",
                             "value": 2
                         },
                         {
-                            "answer": "Inside, large space with distance from others",
-                            "value": 2
+                            "answer": "No",
+                            "value": 0
                         }
                     ]
                 }

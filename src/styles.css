@@ -25,11 +25,11 @@ body {
     @apply text-white bg-sky-700 border-sky-500;
 }
 
-main a {
+main a:not(.button) {
     @apply text-sky-700;
 } 
 
-main a:visited {
+main a:visited:not(.button) {
     @apply text-purple-800;
 } 
 

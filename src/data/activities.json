@@ -1,0 +1,158 @@
+{
+    "activities": [
+        {
+            "title": "activities",
+            "questions": [
+                {
+                    "question": "Do you do any of the following?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Work",
+                            "value": 1
+                        },
+                        {
+                            "answer": "School",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Attend events",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Attend social gatherings",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Run domestic errands",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Seek medical care",
+                            "value": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "activity details",
+            "questions": [
+                {
+                    "question": "are you attending:",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "in person",
+                            "value": 2
+                        },
+                        {
+                            "answer": "hybrid",
+                            "value": 1
+                        },
+                        {
+                            "answer": "remote",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "are you attending:",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "daily",
+                            "value": 4
+                        },
+                        {
+                            "answer": "weekly",
+                            "value": 3
+                        },
+                        {
+                            "answer": "monthly",
+                            "value": 2
+                        },
+                        {
+                            "answer": "quarterly",
+                            "value": 1
+                        },
+                        {
+                            "answer": "yearly",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "how many others are attending:",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "35+",
+                            "value": 4
+                        },
+                        {
+                            "answer": "20 - 35",
+                            "value": 3
+                        },
+                        {
+                            "answer": "10 - 19",
+                            "value": 2
+                        },
+                        {
+                            "answer": "4 - 9",
+                            "value": 1
+                        },
+                        {
+                            "answer": "0 - 3",
+                            "value": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "ventilation",
+            "questions": [
+                {
+                    "question": "Are you able to improve air quality with good ventilation?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Outside, with a breeze",
+                            "value": 6
+                        },
+                        {
+                            "answer": "Inside, maintaining an optimal humidity level, between 30% and 50%",
+                            "value": 5
+                        },
+                        {
+                            "answer": "Inside, running exhaust fans that are vented to the outside",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Inside, air purifier with HEPA or MERV≥13 filter,  with high enough CADR for the space",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Inside, open windows",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Inside, large space with distance from others",
+                            "value": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

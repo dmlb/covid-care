@@ -9,60 +9,179 @@
                     "type": "checkbox",
                     "answers": [
                         {
-                            "answer": "sore throat",
+                            "answer": "Sore throat",
                             "value": 1
                         },
                         {
-                            "answer": "runny nose",
+                            "answer": "Runny nose",
                             "value": 1
                         },
                         {
-                            "answer": "sneezing",
+                            "answer": "Sneezing",
                             "value": 1
                         },
                         {
-                            "answer": "new or worsening cough",
+                            "answer": "New or worsening cough",
                             "value": 2
                         },
                         {
-                            "answer": "shortness of breath or difficulty breathing",
+                            "answer": "Shortness of breath or difficulty breathing",
                             "value": 3
                         },
                         {
-                            "answer": "temperature equal to or more than 38°C",
+                            "answer": "Temperature equal or more than 38°C",
                             "value": 3
                         },
                         {
-                            "answer": "feeling feverish",
+                            "answer": "Feeling feverish",
                             "value": 2
                         },
                         {
-                            "answer": "chills",
+                            "answer": "Chills",
                             "value": 3
                         },
                         {
-                            "answer": "fatigue or weakness",
+                            "answer": "Fatigue or weakness",
                             "value": 3
                         },
                         {
-                            "answer": "muscle or body aches",
+                            "answer": "Muscle or body aches",
                             "value": 3
                         },
                         {
-                            "answer": "new loss of smell or taste",
+                            "answer": "New loss of smell or taste",
                             "value": 4
                         },
                         {
-                            "answer": "headache",
+                            "answer": "Headache",
                             "value": 3
                         },
                         {
-                            "answer": "abdominal pain, diarrhea and vomiting",
+                            "answer": "Abdominal pain, diarrhea and vomiting",
                             "value": 4
                         },
                         {
-                            "answer": "feeling very unwell",
+                            "answer": "Feeling very unwell",
                             "value": 3
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "severe outcomes",
+            "questions": [
+                {
+                    "question": "Are you high risk for severe illness outcomes?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Partially vaccinated",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Not vaccinated",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Over 60",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Over 50 as part of a marginalized group",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Pregnant",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have asthma (moderate to severe)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have Down syndrome",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have dementia or other neurological conditions",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have diabetes (type 1 or 2)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have heart conditions (disease, high blood pressure)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have kidney disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have liver disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have lung disease",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have autonomic nervous system dysfunction",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have a disability",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have cerebrovascular disease or strokes",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Live with obesity (BMI of 40+)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Are immunocompromised (cancer, HIV, medication)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have had 3 or more covid infections",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have 3 or more co-morbidities",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "question": "Do any of the following factors apply to you?",
+                    "description": "",
+                    "type": "checkbox",
+                    "answers": [
+                        {
+                            "answer": "Are part of a marginalized identity group",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Work in a high exposure environment",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Work in a highly trafficked environment",
+                            "value": 1
+                        },
+                        {
+                            "answer": "Have not completed high school or equivalent",
+                            "value": 1
+                        },
+                        {
+                            "answer": "English is a second language",
+                            "value": 1
                         }
                     ]
                 }
@@ -77,15 +196,50 @@
                     "type": "radio",
                     "answers": [
                         {
-                            "answer": "less than 14 days ago",
+                            "answer": "In last 7 days",
+                            "value": 3
+                        },
+                        {
+                            "answer": "In last 14 days",
                             "value": 2
                         },
                         {
-                            "answer": "less than 20 days ago",
+                            "answer": "In last 21 days",
                             "value": 1
                         },
                         {
                             "answer": "Not applicable",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "Have you done any covid testing in the last 14 days?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "No testing",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Positive PCR test",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Negative PCR test",
+                            "value": 0
+                        },
+                        {
+                            "answer": "Negative rapid test",
+                            "value": 2
+                        },
+                        {
+                            "answer": "2 negative rapid tests (24hrs apart)",
+                            "value": 1
+                        },
+                        {
+                            "answer": "3 negative rapid tests (24hrs apart)",
                             "value": 0
                         }
                     ]
@@ -101,11 +255,19 @@
                     "type": "radio",
                     "answers": [
                         {
-                            "answer": "Yes, less than 14 days ago",
+                            "answer": "Yes, in last 3 days",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Yes, in last 7 days",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Yes, in last 14 days",
                             "value": 2
                         },
                         {
-                            "answer": "Yes, less than 20 days ago",
+                            "answer": "Yes, in last 21 days",
                             "value": 1
                         },
                         {
@@ -113,11 +275,92 @@
                             "value": 0
                         }
                     ]
+                },
+                {
+                    "question": "Have you been around anyone with any signs of illness recently?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "Yes, in last 3 days",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Yes, in last 7 days",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Yes, in last 14 days",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Yes, in last 21 days",
+                            "value": 1
+                        },
+                        {
+                            "answer": "No",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "How many adults are you living with?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "0",
+                            "value": 0
+                        },
+                        {
+                            "answer": "1-2",
+                            "value": 1
+                        },
+                        {
+                            "answer": "3-5",
+                            "value": 2
+                        },
+                        {
+                            "answer": "6-10",
+                            "value": 3
+                        },
+                        {
+                            "answer": "11+",
+                            "value": 4
+                        }
+                    ]
+                },
+                {
+                    "question": "How many children are you living with?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "0",
+                            "value": 0
+                        },
+                        {
+                            "answer": "1-2",
+                            "value": 1
+                        },
+                        {
+                            "answer": "3-5",
+                            "value": 2
+                        },
+                        {
+                            "answer": "6-10",
+                            "value": 3
+                        },
+                        {
+                            "answer": "11+",
+                            "value": 4
+                        }
+                    ]
                 }
             ]
         },
         {
-            "title": "travel",
+            "title": "location",
             "questions": [
                 {
                     "question": "Have you traveled recently?",
@@ -125,27 +368,39 @@
                     "type": "checkbox",
                     "answers": [
                         {
-                            "answer": "Yes, internationally, less than 14 days ago",
+                            "answer": "Yes, internationally, in the last 7 days",
+                            "value": 9
+                        },
+                        {
+                            "answer": "Yes, internationally, in the last 14 days",
+                            "value": 8
+                        },
+                        {
+                            "answer": "Yes, internationally, in the last 21 days",
+                            "value": 7
+                        },
+                        {
+                            "answer": "Yes, nationally, in the last 7 days",
                             "value": 6
                         },
                         {
-                            "answer": "Yes, internationally, less than 20 days ago",
+                            "answer": "Yes, nationally, in the last 14 days",
                             "value": 5
                         },
                         {
-                            "answer": "Yes, nationally, less than 14 days ago",
+                            "answer": "Yes, nationally, in the last 21 days",
                             "value": 4
                         },
                         {
-                            "answer": "Yes, nationally, less than 20 days ago",
+                            "answer": "Yes, locally, in the last 7 days",
                             "value": 3
                         },
                         {
-                            "answer": "Yes, locally, less than 14 days ago",
+                            "answer": "Yes, locally, in the last 14 days",
                             "value": 2
                         },
                         {
-                            "answer": "Yes, locally, less than 20 days ago",
+                            "answer": "Yes, locally, in the last 21 days",
                             "value": 1
                         },
                         {
@@ -153,92 +408,97 @@
                             "value": 0
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "title": "severe outcomes",
-            "questions": [
+                },
                 {
-                    "question": "Are you high risk for severe illness outcomes?",
+                    "question": "What type of region do you live in?",
                     "description": "",
-                    "type": "checkbox",
+                    "type": "radio",
                     "answers": [
                         {
-                            "answer": "Over 60",
+                            "answer": "Large city",
+                            "value": 4
+                        },
+                        {
+                            "answer": "Small city",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Large town",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Small town",
                             "value": 1
                         },
                         {
-                            "answer": "Over 50 as part of a marginilized group",
+                            "answer": "Remote area",
+                            "value": 0
+                        }
+                    ]
+                },
+                {
+                    "question": "What is the population density like in your region?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "High",
+                            "value": 3
+                        },
+                        {
+                            "answer": "Medium",
+                            "value": 2
+                        },
+                        {
+                            "answer": "Low",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "question": "Does your region attract travelers?",
+                    "description": "",
+                    "type": "radio",
+                    "answers": [
+                        {
+                            "answer": "It is a global travel destination, year round",
+                            "value": 9
+                        },
+                        {
+                            "answer": "It is a global travel destination, seasonally",
+                            "value": 8
+                        },
+                        {
+                            "answer": "It is nearby a global travel destination",
+                            "value": 7
+                        },
+                        {
+                            "answer": "It is a national travel destination, year round",
+                            "value": 6
+                        },
+                        {
+                            "answer": "It is a national travel destination, seasonally",
+                            "value": 5
+                        },
+                        {
+                            "answer": "It is nearby a national travel destination",
+                            "value": 4
+                        },
+                        {
+                            "answer": "It is a local travel destination, year round",
+                            "value": 3
+                        },
+                        {
+                            "answer": "It is a local travel destination, seasonally",
+                            "value": 2
+                        },
+                        {
+                            "answer": "It is nearby a local travel destination",
                             "value": 1
                         },
                         {
-                            "answer": "Pregnant",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have asthma (moderate to severe)",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have Down syndrome",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have dementia or other neurological conditions",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have diabetes (type 1 or 2)",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have heart conditions (diseason, high blood pressure)",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have kidney disease",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have liver disease",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have lung disease",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have a disability",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have cerebrovascular disease or strokes",
-                            "value": 1
-                        },
-                        {
-                            "answer": "are immunocompromised (cancer, HIV, medication)",
-                            "value": 1
-                        },
-                        {
-                            "answer": "live with obesity (BMI of 40+)",
-                            "value": 1
-                        },
-                        {
-                            "answer": "partially vaccinated",
-                            "value": 1
-                        },
-                        {
-                            "answer": "not vaccinated",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have had 3 or more covid infections",
-                            "value": 1
-                        },
-                        {
-                            "answer": "have 3 or more co-morbidities",
-                            "value": 1
+                            "answer": "No",
+                            "value": 0
                         }
                     ]
                 }

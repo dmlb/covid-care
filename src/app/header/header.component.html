@@ -1,3 +1,10 @@
-<header data-cy="site-header" class="bg-neutral-700 text-white p-1" aria-labelledby="siteTitle">
-        <h1 id="siteTitle" class="text-lg font-extrabold"><a routerLink="/">{{title}}</a></h1>
+<header data-cy="site-header" class="md:flex bg-neutral-700 text-white px-4" aria-labelledby="siteTitle">
+        <h1 id="siteTitle" class="grow text-lg font-extrabold"><a routerLink="/">{{title}}</a></h1>
+
+        <nav aria-label="main site navigation">
+                <ul class="flex flex-wrap gap-3">
+                        <li><a routerLink="/quiz">Take the Quiz</a></li>
+                        <li><a routerLink="/citations">Read Citations</a></li>
+                </ul>
+        </nav>
 </header>
